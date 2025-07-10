@@ -11,6 +11,7 @@
 --         => 07 Tabelas
 --         => 05 Sequencias
 --         => 01 View
+--         => 02 Índices
 -- 
 -- 
 -- ULTIMAS ATUALIZACOES
