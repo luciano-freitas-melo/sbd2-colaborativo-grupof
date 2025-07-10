@@ -11,14 +11,20 @@
 --         => 07 Tabelas
 --         => 05 Sequencias
 --         => 01 View
+--         => 02 Índices
 -- 
 -- 
 -- ULTIMAS ATUALIZACOES
 -- 08/07/2025 => Remoção da tabela ALA
 --            => Remoção da sequência ID_ALA
 --            => Remoção da view EspecialidadesPlantonistas
+--
+-- 09/07/2025 => Remoção de índices
+--
 -- ------------------------------------------------------------------------------------------------------
 
+DROP INDEX IDX_GF_TEM_ESPECIALIDADE;
+DROP INDEX IDX_GF_ESPECIALIDADE_NOME;
 
 DROP VIEW GF_EspecialidadesPlantonistas_VIEW;
 
